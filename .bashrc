@@ -2,13 +2,14 @@
 
 # .bashrc
 
-# If running interactively,source bash_profile 
+# If running interactively, source bash_profile 
 [[ $- = *i* ]] &&  . ~/.bash_profile
 
 # alias for config dirs
 alias gpg='gpg --homedir /home/user0/.config/gnupg/'
 alias vim='vim -u /home/user0/.config/vim/.vimrc'
 alias ssh='ssh -F ~/.config/ssh/config'
+
 # xkb 
 export XKB_DEFAULT_LAYOUT="se(nodeadkeys)"
 
