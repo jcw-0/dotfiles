@@ -9,6 +9,4 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -alh'
 
-export TERM='st-bs-256color'
 export PAGER=/bin/less
-
